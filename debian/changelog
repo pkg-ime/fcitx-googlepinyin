@@ -1,0 +1,5 @@
+fcitx-googlepinyin (0.1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #633108)
+
+ -- Aron Xu <aron@debian.org>  Fri, 20 Sep 2011 19:28:36 +0800
