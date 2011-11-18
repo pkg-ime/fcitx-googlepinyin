@@ -2,10 +2,10 @@ Source: fcitx-googlepinyin
 Section: utils
 Priority: optional
 Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
-Uploaders: Aron Xu <aron@debian.org>, Yunqiang Su <wzssyqa@gmail.com>
+Uploaders: Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>
 DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 8), cmake, intltool, pkg-config,
- fcitx-libs-dev, libgooglepinyin-dev
+ fcitx-libs-dev, libgooglepinyin0-dev (>= 0.1.1+hg20111109)
 Standards-Version: 3.9.2
 Homepage: http://code.google.com/p/fcitx
 Vcs-Git: git://git.debian.org/pkg-ime/fcitx-googlepinyin.git
@@ -14,9 +14,9 @@ Vcs-Browser: http://git.debian.org/?p=pkg-ime/fcitx-googlepinyin.git
 Package: fcitx-googlepinyin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-bin, 
-  fcitx-data (>= 1:4.1.1), fcitx-modules
-Recommends: fcitx (>= 1:4.1.1)
-Breaks: fcitx (<< 1:4.1.1)
+  fcitx-data (>= 1:4.1.2), fcitx-modules, libgooglepinyin0 (>= 0.1.1+hg20111109)
+Recommends: fcitx (>= 1:4.1.2)
+Breaks: fcitx (<< 1:4.1.2)
 Description: Fcitx wrapper for Google Pinyin IM engine
  fcitx-googlepinyin is a wrapper of Google Pinyin IM engine for Fcitx.
  .
