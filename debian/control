@@ -14,7 +14,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-ime/fcitx-googlepinyin.git
 Package: fcitx-googlepinyin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-bin, 
-  fcitx-data (>= 1:4.1.2), fcitx-modules, libgooglepinyin0 (>= 0.1.1+hg20111109)
+  fcitx-data (>= 1:4.1.2), fcitx-modules, libgooglepinyin0-dev (>= 0.1.1+hg20111109)
 Recommends: fcitx (>= 1:4.1.2)
 Breaks: fcitx (<< 1:4.1.2)
 Description: Fcitx wrapper for Google Pinyin IM engine
