@@ -1,0 +1,8 @@
+[Addon]
+Name=fcitx-googlepinyin
+_GeneralName=Google Pinyin
+_Comment=Wrapper of Google Pinyin on Android
+Category=InputMethod
+Enabled=True
+Library=fcitx-googlepinyin.so
+Type=SharedLibrary
