@@ -3,16 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# , 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-08-27 22:03+0800\n"
-"PO-Revision-Date: 2011-11-16 06:56+0000\n"
-"Last-Translator: csslayer <wengxt@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2011-11-16 06:53+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.net/projects/p/fcitx/"
+"team/zh_TW/)\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,17 +20,17 @@ msgstr ""
 
 #: /home/saber/Develop/fcitx-googlepinyin/build/po/tmp/fcitx-googlepinyin.conf.in.h:1
 msgid "Google Pinyin"
-msgstr "Google 拼音"
+msgstr ""
 
 # unknown
 #: /home/saber/Develop/fcitx-googlepinyin/build/po/../..//src/eim.cpp:445
 msgid "GooglePinyin"
-msgstr "Google 拼音"
+msgstr ""
 
 #: /home/saber/Develop/fcitx-googlepinyin/data/fcitx-googlepinyin.desc:4
 msgid "Priority of GooglePinyin"
-msgstr "Google 拼音的优先级"
+msgstr ""
 
 #: /home/saber/Develop/fcitx-googlepinyin/build/po/tmp/fcitx-googlepinyin.conf.in.h:2
 msgid "Wrapper of Google Pinyin on Android"
-msgstr "Android 上的 Google 拼音的封装"
+msgstr ""
