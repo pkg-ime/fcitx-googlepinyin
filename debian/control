@@ -5,7 +5,7 @@ Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
 Uploaders: Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>
 DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 8), cmake, intltool, pkg-config,
- fcitx-libs-dev (>= 4.2.0~), libgooglepinyin0-dev (>= 0.1.2~)
+ fcitx-libs-dev (>= 1:4.2.0), libgooglepinyin0-dev (>= 0.1.2~)
 Standards-Version: 3.9.2
 Homepage: http://code.google.com/p/fcitx
 Vcs-Git: git://git.debian.org/pkg-ime/fcitx-googlepinyin.git
